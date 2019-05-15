@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Common Header</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/commonheader.css">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="container-fluid" id="global">
+        <div class="innertopwrapper">
+            <div class="container" id="global-innertop">
+                <div class="global_welcome">
+                    <span>上午好，山姆欢迎您！</span>
+                    <a href="http://localhost/Samsclub/src/login.html" target="_blank">登录 |</a>
+                    <a href="http://localhost/Samsclub/src/register.html" target="_blank"> 注册</a>
+                </div>
+                <div class="global_mysams">
+                    <ul>
+                        <li>
+                            <a href=""><span>我的山姆</span><i>+</i></a>
+                            <ul id="subglobal">
+                                <li>
+                                    <a href="">个人资料</a>
+                                </li>
+                                <li>
+                                    <a href="">个人资料</a>
+                                </li>
+                                <li>
+                                    <a href="">个人资料</a>
+                                </li>
+                                <li>
+                                    <a href="">个人资料</a>
+                                </li>
+                                <li>
+                                    <a href="">个人资料</a>
+                                </li>
+                                <li>
+                                    <a href="">个人资料</a>
+                                </li>
+                            </ul>
+                            <div id="triangle"></div>
+                        </li>
+                        <li>
+                            <a href=""><span>帮助中心</span><i>+</i></a>
+                            <ul id="subglobal">
+                                <li>
+                                    <a href="">常见问题</a>
+                                </li>
+                                <li>
+                                    <a href="">忘记密码</a>
+                                </li>
+                                <li>
+                                    <a href="">联系我们</a>
+                                </li>
+                                <li>
+                                    <a href="">增值服务</a>
+                                </li>
+                            </ul>
+                            <div id="triangle"></div>
+                        </li>
+                        <li>
+                            <a href=""><span>快购工具</span><i>+</i></a>
+                            <ul id="subglobal">
+                                <li>
+                                    <a href="">常购清单</a>
+                                </li>
+                                <li>
+                                    <a href="">一键购齐</a>
+                                </li>
+                            </ul>
+                            <div id="triangle"></div>
+                        </li>
+                        <li>
+                            <a href=""><span>会籍介绍</span><i>+</i></a>
+                        </li>
+                        <li>
+                            <a href=""><span>掌上山姆</span><i>+</i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- the second part of the top header is the logo and contact address or search input  -->
+        <div class="container" id="logo">
+            <div class="logoleft">
+                <a href="#"><img src="http://image.samsclub-estore.com/front-homepage/samglobal/images/global/logo.png" alt=""></a>
+            </div>
+            <!-- <div class="addressmid"></div> -->
+            <div class="searchright"><input type="search"></div>
+            <div class="cartbutton"><a href="C:\wamp\www\Samsclub\src\cart.html">cart</a></div>
+        </div>
+    </div>
+
+
+
+    <!-- the main part of the header is nav -->
+    <!-- <div class="container-fluid" id="nav"> -->
+    <div id="nav">
+        <ul>
+            <li>
+                <a href="#">极速达</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#">肉蛋水产</a></dt>
+                        <dd>
+                            <a href="#">海参/礼盒</a>
+                        </dd>
+                        <dd>
+                            <a href="#">虾</a>
+                        </dd>
+                        <dd>
+                            <a href="#">蟹/贝</a>
+                        </dd>
+                        <dd>
+                            <a href="#">鱼</a>
+                        </dd>
+                        <dd>
+                            <a href="#">牛/羊肉</a>
+                        </dd>
+                        <dd>
+                            <a href="#">猪肉</a>
+                        </dd>
+                        <dd>
+                            <a href="#">禽类</a>
+                        </dd>
+                        <dd>
+                            <a href="#">鲜蛋/蛋制品</a>
+                        </dd>
+                        <dd>
+                            <a href="#">火锅肉丸</a>
+                        </dd>
+                        <dd>
+                            <a href="#">虾类</a>
+                        </dd>
+                        <dd>
+                            <a href="#">蟹类</a>
+                        </dd>
+                        <dd>
+                            <a href="#">海鲜制品</a>
+                        </dd>
+                        <dd>
+                            <a href="#">贝类</a>
+                        </dd>
+                        <dd>
+                            <a href="#">鱼类</a>
+                        </dd>
+
+                    </dl>
+                    <dl>
+                        <dt><a href="">时蔬素食</a></dt>
+                        <dd>
+                            <a href="">叶菜</a>
+                        </dd>
+                        <dd>
+                            <a href="">根茎瓜果</a>
+                        </dd>
+                        <dd>
+                            <a href="">新鲜菌菇</a>
+                        </dd>
+                        <dd>
+                            <a href="">豆制品</a>
+                        </dd>
+                        <dd>
+                            <a href="">葱/姜/蒜</a>
+                        </dd>
+                        <dd>
+                            <a href="">根茎</a>
+                        </dd>
+                        <dd>
+                            <a href="">瓜果</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">果汁乳品</a></dt>
+                        <dd>
+                            <a href="#">冷藏果汁饮料</a>
+                        </dd>
+                        <dd>
+                            <a href="#">冷藏酸奶</a>
+                        </dd>
+                        <dd>
+                            <a href="#">冷藏鲜奶</a>
+                        </dd>
+                        <dd>
+                            <a href="#">黄油/奶油</a>
+                        </dd>
+                        <dd>
+                            <a href="#">芝士/奶酪</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#">面食点心</a></dt>
+                        <dd>
+                            <a href="#">水饺/馄饨</a>
+                        </dd>
+                        <dd>
+                            <a href="#">面点/小吃</a>
+                        </dd>
+                        <dd>
+                            <a href="#">面条/年糕</a>
+                        </dd>
+                        <dd>
+                            <a href="#">方便面/粉</a>
+                        </dd>
+                        <dd>
+                            <a href="#">速冻食品</a>
+                        </dd>
+                        <dd>
+                            <a href="#">冷藏面</a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">生鲜食品</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">速食面点</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">粮油干货</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">零食牛奶</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">酒水饮料</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">母婴中心</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">个护护肤</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">家居纸品</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">家纺箱包</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+            <li>
+                <a href="#">爱宠爱车</a>
+                <div class="subnav">
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><a href="#" target="_blank"></a></dt>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                        <dd>
+                            <a href="#" target="_blank"></a>
+                        </dd>
+                    </dl>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+
+
+
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

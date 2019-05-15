@@ -1,0 +1,108 @@
+#register {
+    width: 100%;
+    height: 300px;
+    background: #f8f8f8;
+    position: relative;
+}
+
+#registerlogo {
+    width: 150px;
+    margin: 0 auto;
+    height: 150px;
+    position: absolute;
+    left: 620px;
+    top: 40px;
+    padding: 0;
+    background: #f8f8f8;
+}
+
+#registerlogo img {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    display: block;
+}
+
+#registerlogo span {
+    display: block;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    position: absolute;
+    left: 10px;
+    top: 145px;
+    background: #f8f8f8!important;
+}
+
+#register .line {
+    width: 160px;
+    height: 0;
+    border: 1px solid transparent;
+    border-top: 1px solid #666;
+    position: absolute;
+    left: 610px;
+    top: 200px;
+}
+
+
+/* loginpart */
+
+#loginpart {
+    width: 440px;
+    height: 380px;
+    border: 1px solid salmon;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#loginpart .tips {
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+
+#loginpart fieldset {
+    width: 440px;
+    height: 400px;
+    border: 1px silid blue;
+}
+
+#loginpart p {
+    margin: 20px 10px;
+    padding: 0;
+    width: 100%;
+    height: 40px;
+}
+
+#loginpart input {
+    width: 400px;
+    height: 50px;
+    /* border-radius: 2px; */
+    /* border: 1px solid #666; */
+    margin: 10px;
+}
+
+#loginpart .wechat {
+    border: 1px #12b401 solid;
+    border-radius: 3px;
+    text-align: center;
+    color: #12b401;
+    line-height: 50px;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+    background: #fff;
+}
+
+#loginpart .login {
+    width: 300px;
+    display: inline-block;
+    background: #006AAF;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 3px;
+}

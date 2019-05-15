@@ -1,0 +1,90 @@
+#footernav {
+    width: 100%;
+    height: 300px;
+    background: silver;
+    margin-top: 20px;
+    position: relative;
+}
+
+#footernav .footernavinner {
+    width: 1180px;
+    height: 220px;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+#footernav dl {
+    width: 120px;
+    height: 200px;
+    /* border: 1px solid red; */
+    float: left;
+    margin: 10px 20px;
+    font-size: 14px;
+}
+
+#footernav dl dt {
+    width: 120px;
+    height: 26px;
+    line-height: 26px;
+    /* background: sandybrown; */
+    margin-bottom: 20px;
+}
+
+#footernav .footernavinner a {
+    color: #666;
+}
+
+#footernav .footernavinner a:hover {
+    color: #015789;
+    text-decoration: none;
+}
+
+
+/* footer start */
+
+#footernav footer {
+    width: 100%;
+    height: 60px;
+}
+
+#footernav footer p {
+    width: 1200px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+#footernav footer p a {
+    color: #666;
+    font-size: 12px;
+}
+
+#footernav footer p a:hover {
+    text-decoration: none;
+    color: #015789;
+}
+
+#footernav .footerlogo {
+    width: 190px;
+    /* border: 1px solid cadetblue; */
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+
+#footernav .footerlogo img {
+    width: 120px;
+    height: 120px;
+    margin: 0 35px;
+    border: 0;
+    font-size: 0;
+}
+
+#footernav .footerlogo p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 12px;
+}

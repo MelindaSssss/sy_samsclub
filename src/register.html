@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>山姆会员商店-注册</title>
+    <link rel="stylesheet" href="../src/css/register.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <!-- header of the register page -->
+    <div class="container-fluid" id="register">
+        <div class="container" id="registerlogo">
+            <img src="https://security.samsclub.cn/front-passport/passport/images/sam/logo.png" alt="">
+            <span>欢迎注册</span>
+        </div>
+        <div class="line"></div>
+    </div>
+
+    <!-- check you are menbership or not -->
+
+    <div id="tab">
+        <div class="tab_title" id="tab_title">
+            <ul>
+                <li class="active" id="tab_title_left">
+                    <span>icon</span>
+                    <em>暂无会员卡</em>
+                </li>
+                <li id="tab_title_right">
+                    <span>icon</span>
+                    <em>已有会员卡</em>
+                </li>
+            </ul>
+        </div>
+
+        <div class="tab_content" id="tab-content_left">
+            <div class="item show" id="item_left">
+                <fieldset>
+                    <form action="#">
+                        <!-- <legend></legend> -->
+                        <input type="text" placeholder="用户名">
+                        <p>4-20位字符，可由中文、英文、数字</p>
+                        <input type="text" placeholder="邮箱地址">
+                        <p>请输入常用邮箱当登录账户，接受订单通知和找回密码</p>
+                        <input type="password" placeholder="请设置密码">
+                        <p>6-20位字符，可由大小写英文、数字或符号“-”“_”组成 &nbsp;密码强度：<span></span></p>
+                        <input type="password" placeholder="请确认密码">
+                        <input type="text" placeholder="您的手机号">
+                        <p><input type="checkbox" class="checkbox" checked="checked"><span>订阅优惠信息</span></p>
+                        <p> <input type="checkbox" class="checkbox" checked="checked"><span>我已阅读并同意<a href="#">《山姆网站使用条款》</a></span></p>
+
+                        <input type="submit" value="提交" id="submit">
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+
+        <!-- <br><br><br><br><br><br><br><br> -->
+        <div class="tab_content" id="tab-content_right">
+            <div class="item" id="item_right">
+                <fieldset>
+                    <form action="# ">
+                        <!-- <legend></legend> -->
+                        <p><input type="text" placeholder="16位卡号" id="vipnum"></p>
+
+                        <p id="vipnumtip">请输入您的会员卡号</p>
+                        <p><input type="text " placeholder="邮箱地址" id="emailright"></p>
+
+                        <p id="emailtext">请输入常用邮箱当登录账户，接受订单通知和找回密码</p>
+
+                        <p id="select"> <select name="year " id="year" class="vip-select validateAccountBindDate ">
+                        <option value="入会年份 ">请选择</option>
+                        <option value="2019 "> 2019</option>
+                        <option value="2018 "> 2018</option>
+                        <option value="2017 "> 2017</option>
+                        <option value="2016 "> 2016</option>
+                        <option value="2015 "> 2015</option>
+                        <option value="2014 "> 2014</option>
+                        <option value="2013 "> 2013</option>
+                        <option value="2012 "> 2012</option>
+                        <option value="2011 "> 2011</option>
+                        <option value="2010 "> 2010</option>
+                        <option value="2009 "> 2009</option>
+                        <option value="2008 "> 2008</option>
+                        <option value="2007 "> 2007</option>
+                        <option value="2006 "> 2006</option>
+                        <option value="2005 "> 2005</option>
+                        <option value="2004 "> 2004</option>
+                        <option value="2003 "> 2003</option>
+                        <option value="2002 "> 2002</option>
+                        <option value="2001 "> 2001</option>
+                        <option value="2000 "> 2000</option>
+                        <option value="1999 "> 1999</option>
+                        <option value="1998 "> 1998</option>
+                        <option value="1997 "> 1997</option>
+                    </select>
+
+
+
+                            <select name="month " id="month " class="vip-select validateAccountBindDate ">
+                        <option value="月 ">请选择</option>
+                        <option value="1 "> 1</option>
+                        <option value="2 "> 2</option>
+                        <option value="3 "> 3</option>
+                        <option value="4 "> 4</option>
+                        <option value="5 "> 5</option>
+                        <option value="6 "> 6</option>
+                        <option value="7 "> 7</option>
+                        <option value="8 "> 8</option>
+                        <option value="9 "> 9</option>
+                        <option value="10 "> 10</option>
+                        <option value="11 "> 11</option>
+                        <option value="12 "> 12</option>
+                    </select>
+
+                            <select name="day " id="day " class="vip-select validateAccountBindDate ">
+                        <option value="日 ">请选择</option>
+                        <option value="1 "> 1</option>
+                        <option value="2 "> 2</option>
+                        <option value="3 "> 3</option>
+                        <option value="4 "> 4</option>
+                        <option value="5 "> 5</option>
+                        <option value="6 "> 6</option>
+                        <option value="7 "> 7</option>
+                        <option value="8 "> 8</option>
+                        <option value="9 "> 9</option>
+                        <option value="10 "> 10</option>
+                        <option value="11 "> 11</option>
+                        <option value="12 "> 12</option>
+                        <option value="13 "> 13</option>
+                        <option value="14 "> 14</option>
+                        <option value="15 "> 15</option>
+                        <option value="16 "> 16</option>
+                        <option value="17 "> 17</option>
+                        <option value="18 "> 18</option>
+                        <option value="19 "> 19</option>
+                        <option value="20 "> 20</option>
+                        <option value="21 "> 21</option>
+                        <option value="22 "> 22</option>
+                        <option value="23 "> 23</option>
+                        <option value="24 "> 24</option>
+                        <option value="25 "> 25</option>
+                        <option value="26 "> 26</option>
+                        <option value="27 "> 27</option>
+                        <option value="28 "> 28</option>
+                        <option value="29 "> 29</option>
+                        <option value="30 "> 30</option>
+                        <option value="31 "> 31</option>
+                    </select>
+
+                        </p>
+
+                        <!-- <p>找不到入会年份？</p> -->
+                        <p> <input type="password" placeholder="请设置密码" id="setpwd"></p>
+
+                        <p id="setpwdtip">6-24位字符，可由大小写英文、数字或符号“_”组成</p>
+                        <p><input type="password" placeholder="请确认密码 " id="checkpwd"></p>
+                        <p id="checkpwdtip">请确保确保密码与输入密码一致</p>
+                        <p><input type="text" placeholder="您的手机号 " id="telr"></p>
+                        <p id="checktelr">请输入您的大陆手机号码</p>
+                        <p><input type="checkbox" class="checkbox" checked="checked" id="subscribe"><span>订阅优惠信息</span></p>
+                        <p><input type="checkbox" class="checkbox" checked="checked" id="agreement"><span>我已阅读并同意<a href="# ">《山姆网站使用条款》</a></span></p>
+                        <p><input type="submit" value="提交" id="submit1"></p>
+                    </form>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="../src/script/js/jquery.js"></script>
+    <script src="../src/script/js/register.js"></script>
+    <script src="../src/script/js/jquery.validate.js"></script>
+
+    <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js "></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js "></script>
+</body>
+
+</html>

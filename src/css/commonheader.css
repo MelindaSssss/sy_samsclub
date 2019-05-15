@@ -1,0 +1,285 @@
+@font-face {
+    font-family: iconfont;
+    src: url(fonts/font_1404888168_2057645.woff) format("woff")
+}
+
+.site-nav-icon {
+    font-family: iconfont;
+    font-size: 120px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscaleFont type;
+    margin-right: 5px;
+    color: #c21a1a;
+}
+
+
+/* all of the top details about welcome and mysams */
+
+#global {
+    width: 100%;
+    height: 90px;
+    background: #0069aa;
+    color: #fff;
+}
+
+
+/* just for the decoration line  */
+
+#global .innertopwrapper {
+    border-bottom: 1px solid #005c9d;
+}
+
+
+/* the margin:0 auto box to contain content */
+
+#global-innertop {
+    height: 30px;
+    /* background: salmon; */
+}
+
+#global-innertop a:hover {
+    color: #fff!important;
+    text-decoration: none;
+}
+
+
+/* left */
+
+#global-innertop .global_welcome {
+    width: 260px;
+    height: 30px;
+    /* background: orangered; */
+    /* display: inline; */
+    float: left;
+    line-height: 30px;
+}
+
+#global-innertop .global_welcome a {
+    color: #a5c7db;
+}
+
+
+/* right */
+
+#global-innertop .global_mysams {
+    width: 600px;
+    height: 30px;
+    /* background: green; */
+    float: right;
+    /* color: #fff; */
+}
+
+#global-innertop .global_mysams ul li {
+    float: left;
+    list-style-type: none;
+    margin: 0 4px;
+    /* text-align: conter; */
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+}
+
+#global-innertop .global_mysams ul li a {
+    color: #a5c7db;
+    display: block;
+    width: 80px;
+    height: 26px;
+    line-height: 26px;
+    /* background: gray; */
+    margin: 2px auto;
+    text-align: center;
+    border-radius: 2px;
+}
+
+
+/* change the backgroundcolor of the right a when it was been hoverd*/
+
+#global-innertop .global_mysams ul li a:hover {
+    background: gray;
+}
+
+
+/* subglobal */
+
+#global #subglobal {
+    width: 100px;
+    /* height: 190px; */
+    /* border: 1px solid rosybrown; */
+    position: absolute;
+    left: 0;
+    top: 30px;
+    margin: 4px 0 0 0;
+    padding: 0;
+    background: #fff;
+    display: none;
+    z-index: 10;
+    /* color: #333; */
+}
+
+#global #subglobal a {
+    background: transparent;
+    color: #333;
+}
+
+#global #subglobal a:hover {
+    color: #005c9d!important;
+}
+
+
+/* #global .subglobal>li{
+    list-style: none;
+} */
+
+#triangle {
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-bottom: 6px solid #FFF;
+    ;
+    position: absolute;
+    left: 40px;
+    top: 22px;
+    display: none;
+}
+
+#global-innertop .global_mysams ul li:hover #subglobal {
+    display: block;
+}
+
+#global-innertop .global_mysams ul li:hover #triangle {
+    display: block;
+}
+
+
+/* the second part of the global is the logo and contact address or search input  */
+
+#global #logo {
+    width: 1200px;
+    height: 60px;
+    /* border: 1px solid saddlebrown; */
+    position: relative;
+}
+
+#global #logo .logoleft {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#global #logo .logoleft img {
+    /* width: 400px; */
+    height: 60px;
+}
+
+#global #logo .searchright input {
+    width: 350px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 4px;
+    background-color: #015c92;
+    border: 1px solid #015789;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    outline: 0;
+    position: absolute;
+    right: 100px;
+    top: 0;
+    margin: 10px 0;
+}
+
+#global #logo .cartbutton {
+    width: 60px;
+    height: 40px;
+    background: #c21a1a;
+    border-radius: 20%;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    cursor: pointer;
+    text-align: center;
+    line-height: 40px;
+    font-size: 30px;
+    /* color: #FFF; */
+}
+
+#global #logo .cartbutton a {
+    color: #FFF;
+}
+
+
+/* the main part of the header is nav  */
+
+
+/* #nav {
+    background: #005c9d;
+    width: 100%;
+    height: 60px;
+} */
+
+#nav {
+    width: 100%;
+    height: 40px;
+    background: #015c92;
+    position: relative;
+}
+
+#nav>ul {
+    margin: 0;
+}
+
+#nav>ul>li {
+    list-style: none;
+    float: left;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 16px;
+}
+
+#nav>ul>li>a {
+    display: block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    /* margin: 0 20px; */
+    font-size: 14px;
+    /* color: #a5c7db; */
+    color: #fff;
+}
+
+#nav>ul>li:hover>a {
+    background: #fff;
+    color: #015789;
+    text-decoration: none;
+}
+
+
+/* the subnav of the nav start */
+
+#nav .subnav {
+    width: 100%;
+    height: 400px;
+    border: 2px solid #015c92;
+    border-top: 0;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    display: none;
+    z-index: 10;
+    background: #fff;
+    color: #333;
+}
+
+#nav .subnav dl {
+    float: left;
+    text-align: left;
+}
+
+#nav>ul>li:hover .subnav {
+    display: block;
+}
